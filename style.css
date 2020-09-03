@@ -1,0 +1,116 @@
+* {
+  box-sizing: border-box;
+  padding: 0px;
+  margin: 0px;
+  border: 0px;
+}
+
+img {
+  float: right;
+  border: 2px solid orange;
+}
+
+header {
+  color: orange;
+  height: 250px;
+  width: 850px;
+  margin: 0px auto;
+  background-color: aqua;
+}
+button {
+  position: relative;
+  height: 25px;
+  width: 85px;
+  top: 175px;
+  left: 490px;
+  border: 2px solid orange;
+}
+
+li {
+  display: inline;
+  position: relative;
+  left: 245px;
+}
+li a {
+  text-decoration: none;
+  color: purple;
+  margin-right: 20px;
+}
+
+a:hover {
+  color: red;
+  text-decoration: underline;
+  background-color: yellow;
+}
+
+nav {
+  height: 50px;
+  width: 850px;
+  margin: 0px auto;
+  background-color: lightgray;
+}
+
+#navlinks {
+  list-style-type: none;
+  padding-top: 20px;
+}
+
+.container {
+  height: 500px;
+  width: 850px;
+  margin: 10px auto;
+}
+
+.col1 {
+  height: 500px;
+  width: 328px;
+  background-color: gold;
+  text-align: center;
+  padding-top: 10px;
+}
+.col2 {
+  height: 500px;
+  width: 512px;
+  text-align: center;
+  padding-top: 10px;
+  background-color: lightBLUE;
+  position: relative;
+  left: 338px;
+  top: -500px;
+}
+.right {
+  border: thin solid black;
+  height: 200px;
+  width: 450px;
+  margin: 22px;
+  position: absolute;
+}
+.box2 {
+  top: 270px;
+}
+.left {
+  border: thin solid black;
+  height: 100px;
+  width: 100px;
+  margin: 22px;
+  position: absolute;
+}
+.pic2 {
+  left: 384px;
+}
+.pic3 {
+  top: 475px;
+}
+
+.pic4 {
+  left: 384px;
+  top: 475px;
+}
+
+footer {
+  width: 300px;
+  border: 3px solid blue;
+  background-color: gold;
+  color: blue;
+  margin: 20px auto;
+}
